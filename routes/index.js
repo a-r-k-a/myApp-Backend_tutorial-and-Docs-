@@ -17,4 +17,8 @@ router.get('/create', async function(req, res) {
   res.send("The user has been created")
 })
 
+router.get('/about', function(req, res) {
+  res.send("THis is the about page")
+})
+
 module.exports = router;
