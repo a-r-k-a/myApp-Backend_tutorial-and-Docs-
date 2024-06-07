@@ -15,7 +15,7 @@ router.get('/', function(req, res, next) {
 
 router.get('/read', function (req, res) {
   res.send(req.cookies);
-  // res.send(req.cookies.password);
+  res.send(req.cookies.password);
 })
 
 router.get('/deleteCookie', function (req, res) {
